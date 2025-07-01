@@ -125,20 +125,20 @@ body {
 
 @media screen and (max-width: 1179px) {
   .section-layout-1 {
-    padding: 111.78px 0;
+    padding:calc(138px * .81) 0;
   }
 
   .section-layout-1 .inner {
-    gap: 0 51.84px;
+    padding:calc(138px * .81) 0;
   }
 
   .section-layout-1 .inner::before {
-    width: 468.99px;
-    height: 359.64px;
+    width: calc(579px * .81);
+    height: calc(444px * .81);
   }
 
   .section-layout-2 {
-    height: 437.4px;
+    height: calc(540px * .81);
   }
 }
 
@@ -157,7 +157,7 @@ body {
 
   .section-layout-2 {
     text-align: center;
-    padding: 111.78px 0 0;
+    padding: calc(138px * .81) 0 0;
     height: auto;
   }
 
